@@ -14,7 +14,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ## Overview
 
-Using the assets and style guide provided by Frontend mentor, I constructed an example of a blog post.
+Using the assets and style guide provided by Frontend mentor, I constructed an example of a blog preview card.
 
 ### The challenge
 
