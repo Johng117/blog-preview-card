@@ -33,7 +33,7 @@ body {
   width: 327px;
   background-color: var(--white);
   border-radius: 20px;
-  box-shadow: 7px 7px black;
+  box-shadow: 10px 10px black;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -122,5 +122,43 @@ body {
   line-height: 150%;
   color: var(--gray950);
   margin-left: 9px;
+}
+
+/* media queries */
+
+@media only screen and (min-width: 1044px) {
+  .card {
+    height: 522px;
+    width: 384px;
+  }
+
+  .card-illustration {
+    width: 336px;
+  }
+
+  .blog-content-container {
+    height: 194px;
+    width: 336px;
+  }
+
+  .content-header {
+    height: 26px;
+    width: 73px;
+  }
+
+  .publish-date {
+    font-size: 14px;
+    margin: 12px 0px;
+  }
+
+  .blog-subject {
+    font-size: 24px;
+    margin: 15px 0 0 0;
+  }
+
+  .blog-text {
+    font-size: 16px;
+    margin: 20px 0 0 0;
+  }
 }
 
