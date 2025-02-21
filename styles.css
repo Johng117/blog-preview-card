@@ -25,6 +25,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Figtree", serif;
 }
 
 .card {
@@ -50,7 +51,6 @@ body {
   width: 279px;
   height: 173px;
   margin-top: 20px;
-  font-family: "Figtree", serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
@@ -76,12 +76,19 @@ body {
   margin: 10px 0 15px 0;
   font-weight: 500;
 }
+
 .blog-subject {
   font-size: 20px;
   font-weight: 900;
   color: var(--gray950);
   margin-bottom: 15px;
 }
+
+.blog-subject:hover {
+  color: var(--yellow);
+  cursor: pointer;
+}
+
 .blog-text {
   font-weight: 500;
   font-size: 14px;
@@ -114,7 +121,6 @@ body {
   font-size: 14px;
   line-height: 150%;
   color: var(--gray950);
-  font-family: "figtree";
   margin-left: 9px;
 }
 
